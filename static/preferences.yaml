@@ -1,0 +1,19 @@
+frontend:
+  basePath: /
+api:
+  mode: live
+  baseUrl: https://api.sideplay.endothermic-dragon.dev
+  basePath: /
+auth:
+  sessionToken: ""
+ui:
+  theme: original
+  fontFamily: system
+  uiScale: 1
+  icons:
+    fill: 0
+    weight: 400
+    grade: 0
+    opticalSize: 24
+  leftHanded: false
+  sidebarCollapsed: false

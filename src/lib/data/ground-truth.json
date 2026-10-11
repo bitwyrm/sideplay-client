@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"catalog": {
+		"library": [
+			{"id":"moon-glass","title":"Moon Glass","artist":"Side Window","youtubeId":"moon-glass","available":true,"durationSeconds":248},
+			{"id":"soft-static","title":"Soft Static","artist":"Signal Bloom","youtubeId":"soft-static","available":true,"durationSeconds":194},
+			{"id":"warm-interface","title":"Warm Interface","artist":"Glass Relay","youtubeId":"warm-interface","available":true,"durationSeconds":203},
+			{"id":"lantern-code","title":"Lantern Code","artist":"Rose Transit","youtubeId":"lantern-code","available":true,"durationSeconds":221},
+			{"id":"copper-signal","title":"Copper Signal","artist":"Night Router","youtubeId":"copper-signal","available":false,"durationSeconds":267}
+		],
+		"sections": [
+			{"title":"Local Playlists","source":"local","playlists":[{"playlistId":"local-night-drive","title":"Night Drive","source":"local"},{"playlistId":"local-focus-loop","title":"Focus Loop","source":"local"}]},
+			{"title":"From YouTube","source":"youtube","playlists":[{"playlistId":"yt-rain-room","title":"Rain Room","source":"youtube"},{"playlistId":"yt-future-lounge","title":"Future Lounge","source":"youtube"}]},
+			{"title":"From Spotify","source":"spotify","playlists":[{"playlistId":"sp-rose-heat","title":"Rose Heat","source":"spotify"},{"playlistId":"sp-evening-bus","title":"Evening Bus","source":"spotify"}]}
+		],
+		"playlists": {
+			"library":{"id":"library","title":"Library","source":"local","description":"Everything in the local catalog, including unavailable tracks and live additions.","songIds":["moon-glass","soft-static","warm-interface","lantern-code","copper-signal"]},
+			"yt-rain-room":{"id":"yt-rain-room","title":"Rain Room","source":"youtube","description":"A YouTube-linked playlist with watery ambience and brighter accents.","songIds":["moon-glass","soft-static","lantern-code"]},
+			"yt-future-lounge":{"id":"yt-future-lounge","title":"Future Lounge","source":"youtube","description":"Linked from YouTube and kept in sync with the source playlist.","songIds":["warm-interface","lantern-code"]},
+			"sp-rose-heat":{"id":"sp-rose-heat","title":"Rose Heat","source":"spotify","description":"Spotify-linked material for a warmer, more saturated browse path.","songIds":["lantern-code","moon-glass"]},
+			"sp-evening-bus":{"id":"sp-evening-bus","title":"Evening Bus","source":"spotify","description":"Spotify-linked, slower and more loop-friendly.","songIds":["soft-static","warm-interface"]},
+			"local-night-drive":{"id":"local-night-drive","title":"Night Drive","source":"local","description":"Editable local playlist with drag-and-drop sequencing.","songIds":["moon-glass","warm-interface","copper-signal"]},
+			"local-focus-loop":{"id":"local-focus-loop","title":"Focus Loop","source":"local","description":"A tight repeat-friendly list for long work sessions.","songIds":["soft-static","lantern-code"]}
+		}
+	},
+	"playback": {
+		"queueTrackIds":["moon-glass","soft-static","warm-interface","lantern-code"],
+		"currentTrackId":"moon-glass",
+		"activeQueueIndex":0,
+		"isPlaying":false,
+		"progressSeconds":12,
+		"activePanel":"queue",
+		"repeatMode":"off",
+		"shuffle":false,
+		"queueOrigin":{"kind":"manual"},
+		"lyricsByTrackId": {
+			"moon-glass":[
+				{"time":0,"text":"The room opens in a low pink glow"},
+				{"time":16,"text":"Soft borders, sharp intent"},
+				{"time":33,"text":"Teal edges keep the signal honest"},
+				{"time":51,"text":"We keep the queue close and the surface glassy"},
+				{"time":72,"text":"Every transition stays on the page"}
+			]
+		}
+	}
+}

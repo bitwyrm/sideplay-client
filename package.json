@@ -1,0 +1,24 @@
+{
+  "name": "sideplay-client",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node ../sideplay-server.mjs",
+    "serve:watch": "node ../sideplay-server.mjs --watch-build",
+    "check": "svelte-kit sync && tsc --noEmit",
+    "sync": "svelte-kit sync"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-static": "3.0.8",
+    "@sveltejs/kit": "2.20.0",
+    "svelte": "5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3",
+    "vite": "6.4.3"
+  }
+}
